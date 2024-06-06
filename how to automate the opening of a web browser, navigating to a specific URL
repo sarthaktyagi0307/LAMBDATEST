@@ -1,0 +1,13 @@
+package test1;
+
+import org.openqa.selenium.WebDriver;
+    import org.openqa.selenium.chrome.ChromeDriver;
+
+public class test1 {
+    public static void main(String[] args) {
+        WebDriver driver = new ChromeDriver(); 
+//NOW PROVIDE THE URL OF THE SITE YOU WANT TO OPEN
+        driver.get("https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/?form=MA13LH#downloads"); 
+        driver.quit();
+    }
+}
